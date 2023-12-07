@@ -1,0 +1,79 @@
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 400px;   
+    max-width: 400px;
+    border: 3px solid pink;
+    padding: 30px;
+}
+.cart-header{
+    width: 100%;
+    text-align: center;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    margin: 20px 0;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    margin: 10px 0;
+    border: 3px solid pink;
+    padding: 10px;
+}
+.item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 50px;
+}
+.item-details {
+    flex: 1;
+}
+.cart-total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    padding: 10px;
+    border-top: 1px solid pink;
+}
+.cart-total button {
+    padding: 10px;
+    background-color: plum;
+    color: black;
+    border: none;
+    border-radius: 5px;
+   
+}.cart-items button{
+    padding: 5px 10px;
+    background-color: pink;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.cart-items button:hover {
+    background-color: purple;
+}
+
+#addItem {
+    background-color: rosybrown;
+    color: powderblue;
+    margin-left: auto;
+}
+#removeItem {
+    background-color: teal;
+    color: powderblue;
+    margin-left: auto;
+}
